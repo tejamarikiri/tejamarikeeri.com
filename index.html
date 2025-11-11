@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Markeeri Teja | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Full-site background video (covers all sections) -->
+  <video id="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="assets/background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- NAV -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+  <li><a href="#internships">Internships</a></li>
+  <li><a href="#certifications">Certifications</a></li>
+  <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <button id="mode-toggle">🌙</button>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section id="home" class="panel">
+      <div class="intro" data-aos="fade-up">
+        <h1>Hi, I'm <span>Markeeri Teja</span></h1>
+        <p class="subtitle">Java Developer | Data Science & Web Development Enthusiast</p>
+        <div class="label-actions" aria-hidden="false">
+          <a class="label-card label-action" href="#projects"><i class="fas fa-folder-open"></i> View Projects</a>
+          <a class="label-card label-action" href="RRR.pdf" download><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="panel" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div class="label-card about-card">
+        <h3><i class="fas fa-user"></i> Java Developer & Data Science Student</h3>
+        <p>Im a passionate Java Developer and B.Tech CSE (Data Science) student at Sri Venkateswara College Of Engineering and Technology, Chittoor. I build robust backend systems and data-driven ML prototypes that turn data into actionable insights and practical applications.</p>
+      </div>
+    </section>
+
+    <section id="education" class="panel" data-aos="fade-right">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>B.Tech — Computer Science & Engineering (Data Science)</h3>
+        <p>Sri Venkateswara College Of Engineering and Technology, Chittoor — 2021–2025 (CGPA 8.72)</p>
+      </div>
+    </section>
+
+    <section id="experience" class="panel" data-aos="fade-up">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Smart India Hackathon — Finalist (Dec 2023)</h3>
+        <p>Worked on vulnerabilities in IPv4/IPv6 and recommended mitigations.</p>
+      </div>
+    </section>
+
+    <section id="internships" class="panel" data-aos="zoom-in">
+      <h2>Internships</h2>
+      <div class="card">Data Science & ML — Upskills (Jun–Jul 2023)</div>
+      <div class="card">Python Internship — APSCHE SlashMark (May–Jul 2024)</div>
+    </section>
+
+    <section id="certifications" class="panel" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <div class="certification-grid">
+        <div class="label-card certification">
+          <h3><i class="fas fa-certificate"></i> Python for Data Science</h3>
+          <div class="cert-meta"><i class="fab fa-python"></i><span>IBM — Skills Network</span></div>
+        </div>
+        
+        <div class="label-card certification">
+          <h3><i class="fas fa-certificate"></i> Python Programming</h3>
+          <div class="cert-meta"><i class="fab fa-python"></i><span>NPTEL - IIT Madras</span></div>
+        </div>
+
+        <div class="label-card certification">
+          <h3><i class="fas fa-certificate"></i> AWS Cloud Foundations</h3>
+          <div class="cert-meta"><i class="fab fa-aws"></i><span>Amazon Web Services (AWS)</span></div>
+        </div>
+
+        <div class="label-card certification">
+          <h3><i class="fas fa-certificate"></i> Machine Learning</h3>
+          <div class="cert-meta"><i class="fas fa-robot"></i><span>Stanford University - Coursera</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="label-card project">
+          <h3><i class="fas fa-microphone"></i> AI Voice Detection System</h3>
+          <p>Detects AI-generated voice scams using ML & APIs. <a href="https://github.com/tejamarikiri/voice-recognization" target="_blank">GitHub</a></p>
+        </div>
+
+        <div class="label-card project">
+          <h3><i class="fas fa-users-cog"></i> Employee Management System</h3>
+          <p>Java Servlets + MySQL CRUD with JSP frontend. A simple internal HR management tool for employee records and role management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="panel" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="skills-columns">
+        <div class="skills-group">
+          <h3>Frontend</h3>
+          <div class="skill-row">
+            <div class="skill-card"><i class="fab fa-html5 fa-2x" style="color:#e34f26"></i><div>HTML5</div></div>
+            <div class="skill-card"><i class="fab fa-css3-alt fa-2x" style="color:#1572B6"></i><div>CSS3</div></div>
+            <div class="skill-card"><i class="fab fa-js-square fa-2x" style="color:#f7df1e"></i><div>JavaScript</div></div>
+            <div class="skill-card"><i class="fab fa-react fa-2x" style="color:#61DBFB"></i><div>React</div></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>Backend</h3>
+          <div class="skill-row">
+            <div class="skill-card"><i class="fa fa-coffee fa-2x" style="color:#5382a1"></i><div>Java</div></div>
+            <div class="skill-card"><i class="fa fa-database fa-2x" style="color:#4479A1"></i><div>MySQL</div></div>
+            <div class="skill-card"><i class="fab fa-python fa-2x" style="color:#3776AB"></i><div>Python</div></div>
+            <div class="skill-card"><i class="fa fa-cogs fa-2x" style="color:#9b5de5"></i><div>APIs</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel" data-aos="fade-up">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="label-card contact-card">
+          <p><strong>Email:</strong> <a href="mailto:tejamarikiri@gmail.com">tejamarikiri@gmail.com</a></p>
+          <p class="social-links">
+            <a href="https://www.linkedin.com/in/markeeri-teja-ba1870273/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+            <a href="https://github.com/tejamarikiri" target="_blank" title="GitHub"><i class="fab fa-github fa-lg"></i> GitHub</a>
+          </p>
+        </div>
+
+        <div class="label-card contact-card">
+          <form id="contact-form" class="java-theme" action="" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button id="submit-button" type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2025 Markeeri Teja</footer>
+
+  <!-- Penguin assistant and fish cursor removed per request -->
+
+  <!-- Penguin assistant UI and 3D canvas -->
+  <div id="penguin-assistant">
+    <canvas id="penguin-canvas" aria-label="penguin canvas"></canvas>
+
+    <div id="penguin-ui">
+        <div id="penguin-body">
+        <img id="penguin-fallback" src="assets/penguin.png" alt="penguin fallback" />
+        <button id="penguin-open" title="Open assistant"><img src="assets/penguin.png" alt="Pengo" class="penguin-icon" style="width:40px;height:40px;border-radius:8px;"/></button>
+      </div>
+
+      <div id="penguin-panel" class="hidden" role="dialog">
+        <div id="penguin-header"><strong>Pengo</strong><button id="penguin-close"><i class="fas fa-times"></i></button></div>
+        <div id="penguin-chat"><div id="penguin-messages"></div></div>
+        <div id="penguin-controls">
+          <input id="penguin-input" placeholder="Ask about internships, projects, skills..." />
+          <button id="penguin-send"><i class="fas fa-paper-plane"></i></button>
+          <button id="penguin-voice"><i class="fas fa-microphone"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fish cursor container -->
+  <div id="fish-cursor-container" aria-hidden="true"></div>
+
+  <!-- Three.js -->
+  <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+
+  <!-- scripts -->
+  <script src="penguin.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1100 });</script>
+</body>
+</html>
